@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.uppernav {
+  display: flex;
+  align-items: flex-end;
+  align-content: space-between;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+.header-menu {
+  width: 100%;
+  float: left;
+  position: relative;
+  box-shadow: 0px 2px 5px 0px #00000036;
+}
+.marquee,
+marquee > a {
+  background-color: red;
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  height: 140px;
+  width: fit-content;
+  float: left;
+}
+.main-menu {
+  list-style: none;
+  float: right;
+  margin-top: 20px;
+}
+.main-menu a {
+  font-weight: 500;
+  color: #3a3a3a;
+  font-size: 20px;
+  text-decoration: none;
+}
+.main-menu li {
+  float: left;
+  padding: 12px 15px;
+}
+
+#top_navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+  height: fit-content;
+  padding: 1px 5px;
+}
+
+.about-college {
+  font-size: 40px;
+  color: teal;
+  font-family: cursive;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  padding: 20px;
+}
+.intro {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main-content {
+  display: flex;
+  text-align: justify;
+}
+
+.college-intro {
+  display: block;
+  width: 50%;
+  height: 300px;
+}
+
+.college-image {
+  width: 350px;
+  height: 300px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.admission {
+  height: 300px;
+  width: 350px;
+  margin-left: 30px;
+}
+
+.outer {
+  height: 630px;
+  width: 1002px;
+  margin: auto;
+}
+
+.img1 {
+  height: 250px;
+  width: 300px;
+  border: 2px solid black;
+  float: left;
+  margin: 10px;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.news-section{
+    background-image: url(news.jpeg);
+    background-size:cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latest-news{
+    margin-left:10px;
+    margin-right:10px;
+    background:#fff;
+    padding:20px;
+    height:300px;
+    margin-bottom:30px;
+    width:33%;
+    float:left;
+}
+.notice-board{
+    margin-left:10px;
+    margin-right:10px;
+    background:#fff;
+    padding:20px;
+    height:300px;
+    margin-bottom:30px;
+    width:33%;
+    float:left;
+}
+.bottom{
+    width:25%;
+    float:left;
+}
+.footer {
+    background: #232F3E;
+    padding: 50px 0px;
+    margin-top:50px;
+    width:100%;
+    float:left;
+}
+.quicklink-menu {
+    list-style:none;
+    padding-left: 10px;
+}
+.quicklink-menu li a {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration:none;
+}
+
+.quicklink-heading {
+    font-size:18px;
+    font-weight:bold;
+    color:#fff;
+    margin-bottom:10px;
+}
+.get-in-touch {
+    list-style:none;
+    padding-left: 10px;
+}
+.get-in-touch li i {
+    color: #ed372c;
+    font-size: 20px;
+}
+.get-in-touch li {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration:none;
+}
+.footer-e-mail {
+    font-size:15px;
+    font-weight:bold;
+    color:#fff;
+    text-decoration:none;
+}
+.footer-website {
+    font-size:12px;
+    font-weight:bold;
+    color:#fff;
+    text-decoration:none;
+}
